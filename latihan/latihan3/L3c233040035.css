@@ -23,6 +23,6 @@ p {
 .p2 {
     text-align: right;
 }
-.link:hover{
+.link:hover{ 
     color: red;
 }
