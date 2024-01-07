@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS GRID</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="hero">
+          <h2 class="heading">Japanese Domestic Cars</h2>
+          <p class="sub-heading">Jdm</p>
+        </div>
+        <div class="features feature-1">
+          <h4 class="price">IDR 250K</h4>
+          <p class="item">Gt 86</p>
+        </div> 
+        <div class="features feature-2">
+          <h4 class="price">150K</h4>
+          <p class="item">Darth Vader</p>
+        </div>
+      </header>
+
+      <nav class="menu">
+        <div class="menu-toggle">
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="brand">
+          <h1>Marvel & Starwars</h1>
+        </div>
+        <ul class="menu-list">
+          <li><a href="">Home</a></li>
+          <li><a href="">Products</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Gallery</a></li>
+        </ul>
+      </nav>
+
+      <section class="services">
+        <div class="service">
+          <div class="icon">1</div>
+          <h3>GTR R34</h3>
+          <p>
+            Nissan Skyline R34 is a sports car from a Japanese manufacturer. It is a legendary sports car that has debuted in car racing films such as Fast & Furious. It has an engine with wild performance that resides behind its sporty body.
+          </p>
+        </div>
+        <div class="service">
+          <div class="icon">2</div>
+          <h3>AE 86</h3>
+          <p>
+            The AE86 comes from the 5th generation Toyota Corolla car family. AE86 is the abbreviation of "A" for the 4A series engine, "E" for Corolla, "86" for the Sprinter Trueno/Corolla Levin variant in the fifth generation of Corolla known as the E80 series
+        </div>
+        <div class="service">
+          <div class="icon">3</div>
+          <h3>RX-7</h3>
+          <p>
+            The Mazda RX-7 FD is an icon in the world of sports cars, produced by the Japanese manufacturer, Mazda, between 1992 and 2002. This car has gained many fans because of its combination of attractive design and innovative rotary engine technology and a louder sound. at high revs.
+          </p>
+        </div>
+        <div class="service">
+          <div class="icon">4</div>
+          <h3>Custom</h3>
+          <p>
+            CREATE A CUSTOM, ACTION FIGURE CUSTOM ACTION FIGURES & PERSONALIZED ACTION FIGURES YOUR PERSONALIZED ACTION FIGURES CAN HAVE ANY CUSTOMIZATION LEVEL, FROM CUSTOM CLOTHING, TATTOOS, AND ACCESSORIES & WE CAN MAKE YOUR ACTION
+            FIGURE TALK.
+          </p>
+        </div>
+      </section>
+
+      <section class="gallery">
+        <h2>Gallery</h2>
+        <img src="https://source.unsplash.com/random/201x201" alt=""></img>
+        <img src="https://source.unsplash.com/random/202x202" alt=""></img>
+        <img src="https://source.unsplash.com/random/203x203" alt=""></img>
+        <img src="https://source.unsplash.com/random/204x204" alt=""></img>
+        <img src="https://source.unsplash.com/random/205x205" alt=""></img>
+        <img src="https://source.unsplash.com/random/206x206" alt=""></img>
+        <img src="https://source.unsplash.com/random/207x207" alt=""></img>
+        <img src="https://source.unsplash.com/random/208x208" alt=""></img>
+        <img src="https://source.unsplash.com/random/209x209" alt=""></img>
+        <img src="https://source.unsplash.com/random/210x210" alt=""></img>
+        
+
+  
+      </section>
+    </div>
+    <script>
+      const menuToggle = document.querySelector(".menu-toggle input");
+      const nav = document.querySelector("nav ul");
+
+      menuToggle.addEventListener("click", function () {
+        nav.classList.toggle("slide");
+      });
+    </script>
+  </body>
+</html>
